@@ -5,8 +5,6 @@ import { WagmiProvider, createConfig, http } from 'wagmi'
 import { base } from 'wagmi/chains'
 import { farcasterMiniApp as miniApp } from '@farcaster/miniapp-wagmi-connector'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { Buffer } from 'buffer'
-window.Buffer = window.Buffer || Buffer
 
 const config = createConfig({
   chains: [base],

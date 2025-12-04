@@ -1,15 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { Buffer } from 'buffer'
+import { nodePolyfills } from 'vite-plugin-node-polyfills'
 
 export default defineConfig({
-  plugins: [react()],
-  resolve: {
-    alias: {
-      buffer: 'buffer',
-    },
-  },
-  define: {
-    'global.Buffer': Buffer,
-  },
+  plugins: [
+    react(),
+    nodePolyfills({
+      globals: {
+        Buffer: true,
+      },
+    }),
+  ],
 })
