@@ -1,0 +1,12 @@
+{
+  "name": "GM Counter",
+  "description": "A simple Farcaster mini-app to count GMs on the Base blockchain.",
+  "iconUrl": "https://example.com/icon.png",
+  "websiteUrl": "https://example.com",
+  "categories": ["tools"],
+  "versions": {
+    "v1": {
+      "entryPointPath": "/"
+    }
+  }
+}
