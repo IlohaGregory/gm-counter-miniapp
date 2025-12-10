@@ -16,7 +16,7 @@
     "screenshotUrls": [
       "https://gm-counter-miniapp.vercel.app/public/assets/screenshot.png"
     ],
-    "primaryCategory": "tools",
+    "primaryCategory": "utility",
     "tags": ["gm", "counter", "base", "blockchain"],
     "heroImageUrl": "https://gm-counter-miniapp.vercel.app/public/assets/Hero.png",
     "tagline": "Say GM and count it on-chain",
