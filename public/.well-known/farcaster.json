@@ -1,5 +1,10 @@
 {
-  "miniapp": {
+    "accountAssociation": {
+    "header": "...",
+    "payload": "...",
+    "signature": "..."
+    },
+    "miniapp": {
     "version": "1",
     "name": "GM Counter",
     "homeUrl": "https://gm-counter-miniapp.vercel.app/",
